@@ -6,15 +6,13 @@
         android:title="Home"
         android:icon="@drawable/home"
         app:showAsAction="ifRoom"
+        android:iconTint="#007792"
         />
     <item
         android:id="@+id/action_list"
         android:title="List"
         android:icon="@drawable/baseline_list_24"
+        android:iconTint="#007792"
         app:showAsAction="ifRoom"/>
-    <item
-        android:id="@+id/action_msgs"
-        android:title="Messages"
-        android:icon="@drawable/chat"
-        app:showAsAction="ifRoom"/>
+
 </menu>

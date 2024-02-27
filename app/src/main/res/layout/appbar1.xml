@@ -4,6 +4,7 @@
     android:id="@+id/mytoolbar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="@color/blue"
+    android:background="#0E3386"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:menu="@menu/menu1"
     app:title="Freelancers"/>

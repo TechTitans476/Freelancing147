@@ -4,7 +4,7 @@
     android:id="@+id/mytoolbar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="@color/blue"
+    android:background="#007792"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     app:menu="@menu/menu"
     app:title="Recruiters"/>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Applyjob">
+
+
+    <TextView
+        android:id="@+id/jobIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job ID: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/jobNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Job Name: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/jobIdTextView"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/jobNameTextView"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/onameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organization Name: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/locationTextView"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/shiftTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shift: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/onameTextView"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:id="@+id/modeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/shiftTextView"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/fieldTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Field: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/modeTextView"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/recruiterIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recruiter ID: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/fieldTextView"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Inside your XML layout file -->
+
+
+    <TextView
+        android:id="@+id/freelancerIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recruiterIdTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="8dp"
+        android:text="Freelancer Id: "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPickImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/freelancerIdTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="144dp"
+        android:onClick="pickImage"
+        android:text="Go back" />
+
+
+</RelativeLayout>

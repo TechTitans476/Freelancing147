@@ -5,11 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/createjobapp">
+    android:background="@drawable/register">
 
     <TextView
         android:id="@+id/editText2"
-        android:layout_width="361dp"
+        android:layout_width="360dp"
         android:layout_height="52dp"
         android:drawableLeft="@drawable/baseline_create_24"
         android:text="Create Job Application"
@@ -18,9 +18,10 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.063" />
 
     <EditText
         android:id="@+id/job_name"
@@ -37,7 +38,7 @@
         android:textColorHint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2"
         app:layout_constraintVertical_bias="0.0" />
@@ -57,10 +58,11 @@
         android:textColorHint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/job_name"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.0" />
+
 
     <EditText
         android:id="@id/oname"
@@ -76,11 +78,10 @@
         android:textColorHint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/location"
-        app:layout_constraintVertical_bias="0.016" />
-
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/Shift"
@@ -97,10 +98,10 @@
         android:textColorHint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/oname"
-        app:layout_constraintVertical_bias="0.026" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/field"
@@ -117,26 +118,24 @@
         android:textColorHint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.43"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Shift"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.045" />
 
     <TextView
         android:layout_width="74dp"
-
         android:layout_height="57dp"
-        android:layout_marginStart="60dp"
         android:text="Mode"
+        android:textAlignment="center"
         android:textColor="@color/blue"
-
         android:textSize="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/spinner_job_types"
-        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintEnd_toStartOf="@+id/Mode"
+        app:layout_constraintHorizontal_bias="0.612"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/field"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661" />
 
     <EditText
         android:id="@+id/job_id"
@@ -148,10 +147,10 @@
         android:textColorHint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Mode"
-        app:layout_constraintVertical_bias="0.06" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/recruiter_id"
@@ -163,7 +162,7 @@
         android:textColorHint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/job_id"
         app:layout_constraintVertical_bias="0.0" />
@@ -180,7 +179,7 @@
         app:layout_constraintHorizontal_bias="0.894"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/field"
-        app:layout_constraintVertical_bias="0.054" />
+        app:layout_constraintVertical_bias="0.068" />
 
     <Button
         android:id="@+id/button3"
@@ -190,11 +189,10 @@
         android:text="SUBMIT"
         android:textColorHighlight="@color/white"
         android:textColorLink="@color/blue"
-        app:backgroundTint="@color/green"
+        app:backgroundTint="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Mode"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintTop_toBottomOf="@+id/recruiter_id"
+        app:layout_constraintVertical_bias="0.403" />
 </androidx.constraintlayout.widget.ConstraintLayout>

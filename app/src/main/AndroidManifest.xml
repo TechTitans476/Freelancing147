@@ -2,10 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -13,9 +17,46 @@
         android:theme="@style/Theme.FreelancingApplication"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity3"
+            android:name=".Splash"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Getapplicantsdetails"
+            android:exported="false" />
+        <activity
+            android:name=".page2"
+            android:exported="false" />
+        <activity
+            android:name=".Page1"
             android:exported="false"/>
 
+
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".jobdetailsactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Rjoblist"
+            android:exported="false" />
+        <activity
+            android:name=".Fjoblist"
+            android:exported="false" />
+        <activity
+            android:name=".Applyjob"
+            android:exported="false" />
+        <activity
+            android:name=".Search"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
         <activity
             android:name=".Userlist"
             android:exported="false" />
@@ -27,17 +68,10 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" >
-
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

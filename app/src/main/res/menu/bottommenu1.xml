@@ -2,16 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/action_home"
         android:title="Home"
         android:icon="@drawable/home"
         app:showAsAction="ifRoom"
+        android:iconTint="#0E3386"
         />
     <item
+        android:id="@+id/action_joblist"
         android:title="Jobs List"
         android:icon="@drawable/baseline_list_24"
+        android:iconTint="#0E3386"
         app:showAsAction="ifRoom"/>
     <item
-        android:title="Messages"
+        android:id="@+id/action_msgs"
+        android:iconTint="#0E3386"
+        android:title="Assistant"
         android:icon="@drawable/chat"
         app:showAsAction="ifRoom"/>
 </menu>

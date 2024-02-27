@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/regfinal"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity2">
 
     <include
@@ -25,21 +26,6 @@
         app:itemRippleColor="@color/blue"
         android:outlineAmbientShadowColor="@color/blue"
         />
-
-    <TextView
-        android:layout_width="314dp"
-        android:layout_height="256dp"
-        android:text="Welcome to Freelancing Application"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="50dp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include"
-        app:layout_constraintVertical_bias="0.519" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
