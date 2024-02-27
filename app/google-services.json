@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "82409928080",
+    "firebase_url": "https://freelancing-app-f483e-default-rtdb.firebaseio.com",
+    "project_id": "freelancing-app-f483e",
+    "storage_bucket": "freelancing-app-f483e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82409928080:android:98388c7650a7a4e3386f15",
+        "android_client_info": {
+          "package_name": "com.example.freelancingapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMGc5jnk7vbId7a7ECunmUPF4-SR5ZHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82409928080:android:af1f75dbd39d5107386f15",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMGc5jnk7vbId7a7ECunmUPF4-SR5ZHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

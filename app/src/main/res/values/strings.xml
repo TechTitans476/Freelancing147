@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Freelancing Application</string>
+    <string-array name="spinner_job_types">
+        <item>Intern</item>
+        <item>Full Time</item>
+        <item>Freelancer</item>
+    </string-array>
+
+
+</resources>
