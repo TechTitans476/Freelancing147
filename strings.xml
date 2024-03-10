@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Freelancing Application</string>
+    <string-array name="spinner_job_types">
+        <item>Select_Mode</item>
+        <item>Intern</item>
+        <item>Full Time</item>
+        <item>Freelancer</item>
+    </string-array>
+    <string name="title_activity_main4">MainActivity4</string>
+    <!-- Strings used for fragments for navigation -->
+    <string-array name="jobtype">
+        <item>Select_Mode</item>
+        <item>Intern</item>
+        <item>Full Time</item>
+        <item>Freelancer</item>
+    </string-array>
+
+
+</resources>
